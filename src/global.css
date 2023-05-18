@@ -78,5 +78,8 @@ body {
 button:disabled {
   @apply bg-gray-800;
 }
+.shadow:hover {
+  box-shadow: 0 0px 20px #006ce9 ;
+}
 
 
