@@ -8,58 +8,12 @@
 
 ---
 
-## Project Structure
+## Proyecto de Qwik siguiendo los tutoriales de Fernando Herrera en Devtalles
 
-This project is using Qwik with [QwikCity](https://qwik.builder.io/qwikcity/overview/). QwikCity is just an extra set of tools on top of Qwik to make it easier to build a full site, including directory-based routing, layouts, and more.
+El siguiente proyecto es un tutorial introductorio sobre qwik, mostrando su sintaxis propia y su forma de funcionar para retrasar lo maximo posible la entrada de javascript, es decir, se basa en dejar a la espera cualquier script de javascript hasta que este sea precisado
 
-Inside your project, you'll see the following directory structure:
+El proyecto esta desarrollado con typescript, cuenta con el sistema de rutas propio de qwik, y hace uso tambien del useStore, del localstorage y del useContext para el manejo de estado
 
-```
-├── public/
-│   └── ...
-└── src/
-    ├── components/
-    │   └── ...
-    └── routes/
-        └── ...
-```
+Tambien tiene una pequeña implementacion con ChatGPT, es un simple ejemplo que muestra una descripcion del pokemon al que se accede
 
-- `src/routes`: Provides the directory based routing, which can include a hierarchy of `layout.tsx` layout files, and an `index.tsx` file as the page. Additionally, `index.ts` files are endpoints. Please see the [routing docs](https://qwik.builder.io/qwikcity/routing/overview/) for more info.
-
-- `src/components`: Recommended directory for components.
-
-- `public`: Any static assets, like images, can be placed in the public directory. Please see the [Vite public directory](https://vitejs.dev/guide/assets.html#the-public-directory) for more info.
-
-## Add Integrations and deployment
-
-Use the `yarn qwik add` command to add additional integrations. Some examples of integrations include: Cloudflare, Netlify or Express server, and the [Static Site Generator (SSG)](https://qwik.builder.io/qwikcity/guides/static-site-generation/).
-
-```shell
-yarn qwik add # or `yarn qwik add`
-```
-
-## Development
-
-Development mode uses [Vite's development server](https://vitejs.dev/). During development, the `dev` command will server-side render (SSR) the output.
-
-```shell
-npm start # or `yarn start`
-```
-
-> Note: during dev mode, Vite may request a significant number of `.js` files. This does not represent a Qwik production build.
-
-## Preview
-
-The preview command will create a production build of the client modules, a production build of `src/entry.preview.tsx`, and run a local server. The preview server is only for convenience to locally preview a production build, and it should not be used as a production server.
-
-```shell
-yarn preview # or `yarn preview`
-```
-
-## Production
-
-The production build will generate client and server modules by running both client and server build commands. Additionally, the build command will use Typescript to run a type check on the source code.
-
-```shell
-yarn build # or `yarn build`
-```
+Cuenta con paginacion y con infiniteScroll (list ssr y list client)
