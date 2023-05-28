@@ -14,6 +14,10 @@ export default component$(() => {
         </div>
         <ul>
           <li>
+            <Link href="/login">Login</Link>
+          </li><li>
+            <Link href="/quizz">Concurso</Link>
+          </li><li>
             <Link href="/counter">Counter</Link>
           </li>
           <li>

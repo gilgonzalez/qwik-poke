@@ -7,7 +7,7 @@ export default component$(() => {
     <div class="flex flex-col justify-center items-center mt-10">
         <Slot />
 
-        <Link class="mt-10 hover:text-gray-100 btn hover:shadow-amber-50 shadow transition-all duration-300 hover:bg-pink-500 bg-pink-700" href="/">
+        <Link class="mt-10 text-white hover:text-gray-100 btn hover:shadow-amber-50 shadow transition-all duration-300 hover:bg-pink-500 bg-pink-700" href="/">
             Go back
         </Link>
     </div>

@@ -1,0 +1,35 @@
+
+
+.login-main{
+  @apply min-h-screen bg-gray-100 py-6 flex flex-col justify-center sm:py-12
+}
+
+.login-bg {
+  @apply relative py-3 sm:max-w-xl sm:mx-auto;
+}
+
+.login-bg-gradient {
+  @apply absolute inset-0 bg-gradient-to-r from-purple-300 to-blue-300 shadow-lg transform -skew-y-6 sm:skew-y-0 sm:-rotate-6 sm:rounded-3xl;
+}
+
+.login-white-bg {
+  @apply relative px-4 py-10 bg-white shadow-lg sm:rounded-3xl sm:p-20;
+}
+@font-face {
+  font-family: 'poppins-500';
+  src: url('/fonts/poppins-500.woff2') format('truetype');
+  /* Additional font properties (optional) */
+  font-weight: normal;
+  font-style: oblique;
+  letter-spacing: 2vw;
+  color: yellow;
+}
+
+.login-title {
+  @apply text-black text-xl font-light;
+  font-family: 'poppins-500';
+}
+
+.login-content {
+  @apply divide-y divide-gray-200;
+}

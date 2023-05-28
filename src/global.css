@@ -15,7 +15,7 @@
  */
 
 :root {
-  --qwik-dark-blue: #006ce9;
+  --qwik-dark-blue: #0875f1;
   --qwik-light-blue: #18b6f6;
   --qwik-light-purple: #ac7ff4;
   --qwik-dark-purple: #713fc2;
@@ -39,6 +39,7 @@ body {
   padding: 0;
   margin: 0;
   line-height: inherit;
+  height: 100%;
 }
 
 /**
@@ -56,11 +57,13 @@ html {
   font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
     'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
     'Segoe UI Symbol', 'Noto Color Emoji';
+    height: 100%
 }
 
 body {
   padding: 0;
   line-height: inherit;
+  
 }
 
 .btn {
@@ -80,6 +83,9 @@ button:disabled {
 }
 .shadow:hover {
   box-shadow: 0 0px 20px #006ce9 ;
+}
+.awesome {
+  font-family: 'poppins-500';
 }
 
 

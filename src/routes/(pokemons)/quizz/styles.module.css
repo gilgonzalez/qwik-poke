@@ -1,0 +1,34 @@
+@font-face {
+  font-family: 'Pokemon-Hollow';
+  src: url('/fonts/Pokemon-Hollow.woff') format('truetype');
+  /* Additional font properties (optional) */
+  font-weight: bold;
+  font-style: oblique;
+  color: yellow;
+  font-size: xx-large;
+}
+@font-face {
+  font-family: 'Pokemon-Solid';
+  src: url('/fonts/Pokemon-Solid.woff') format('truetype');
+  /* Additional font properties (optional) */
+  font-weight: normal;
+  font-style: oblique;
+}
+@font-face {
+  font-family: 'poppins-500';
+  src: url('/fonts/poppins-500.woff2') format('truetype');
+  /* Additional font properties (optional) */
+  font-weight: normal;
+  font-style: oblique;
+  letter-spacing: 2vw;
+  color: yellow;
+}
+/* h1 {
+  font-family: 'Pokemon-Solid';
+  color: yellow;
+  letter-spacing: 10px;
+  -webkit-text-stroke: 4px rgb(10, 10, 231);
+} */
+#whatever {
+  background-color: red;
+}
