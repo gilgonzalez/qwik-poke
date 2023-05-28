@@ -37,7 +37,7 @@ export default component$(() => {
             isVisible={ isPokemonVisible.value }
           />
         </div>
-        <div class="mt-2">
+        <div class="mt-2" style={{display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1rem'}}>
           <button onClick$={ previousPokemon }  class="btn btn-primary mr-2">Anterior</button>
           <button onClick$={ nextPokemon } class="btn btn-primary mr-2">Siguiente</button>
           <button onClick$={ getRandomPokemonId } class="btn btn-primary mr-2">Random gen 1-2</button>
