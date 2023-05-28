@@ -58,12 +58,7 @@ export default component$(() => {
           Para autentificarse, utilizar los siguientes credenciales : fragilgon@gmail.com 1234
         </p>
         <p>Esto generará una cookie, que se guardará en el navegador</p>
-        <p>Para probar que son rutas protegidas, borrar la cookie</p>
-
-
-            <code>
-                { JSON.stringify( {status :action.value, success :action.value?.success, jwt : action.value?.jwt}, undefined , 2 ) }
-            </code>  
+        <p>Para probar que son rutas protegidas, borrar la cookie</p> 
         </Form>
     )
 });
