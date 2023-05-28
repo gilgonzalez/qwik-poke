@@ -14,7 +14,7 @@ export default component$(() => {
           Go back
         </Link>
       <h2 class={'mt-5'}>Tarjeta Ejemplo</h2>
-      <Card colors={colors} sizes={sizes} backgroundColor='black'/>
+      <Card colors={colors} sizes={sizes} backgroundColor='#b3e140'/>
       </div>
 
       )
