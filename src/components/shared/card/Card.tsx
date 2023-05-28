@@ -15,8 +15,8 @@ export default component$(({ colors, sizes, backgroundColor = 'transparent' } : 
   return (
       <div class="card" style={{backgroundColor: backgroundColor}}>
         <div class="imgContainer">
-          <img
-            src="../../public/adidas.png"
+        <img
+          src='https://static.nike.com/a/images/t_default/851c011e-1c42-4c44-87b8-d14af5c95ff1/pegasus-39-road-running-shoes-sKxqrV.png'
             alt="Nike Shoes"
           />
         </div>

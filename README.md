@@ -17,3 +17,13 @@ El proyecto esta desarrollado con typescript, cuenta con el sistema de rutas pro
 Tambien tiene una pequeña implementacion con ChatGPT, es un simple ejemplo que muestra una descripcion del pokemon al que se accede
 
 Cuenta con paginacion y con infiniteScroll (list ssr y list client)
+
+## Express Server
+
+This app has a minimal [Express server](https://expressjs.com/) implementation. After running a full build, you can preview the build using the command:
+
+```
+npm run serve
+```
+
+Then visit [http://localhost:8080/](http://localhost:8080/)
